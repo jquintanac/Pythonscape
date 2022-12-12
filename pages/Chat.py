@@ -44,51 +44,51 @@ with col2:
 st.markdown("<h5 style='text-align: center; color: black;'>Welcome to the Codes City Police Chat Service. Please, enter a correct phone number to conect with.", unsafe_allow_html=True)
 
 a=st.text_input('Phone number to conect', '')
-llamada=['The number you have dialed is not in service at this time. Please, check the number and try to call again.', "It's Pam. Who's calling? Hello?", "I'm not interested in buying anything. Bye."]
+llamada=['The number you have dialed is not in service at this time. Please, check the number and try to call again.', "It's Pam. Who's calling? Hello?", "I'm not interested in buying anything, thank you. Bye."]
 
 if a != '':
     if re.search('\w{3}-\w{3}-\w{3}', a):
 
         if a=='215-465-875':
             time.sleep(2)
-            st.text('Trying to conect')
+            st.markdown('Trying to conect')
             time.sleep(5)
-            st.text("Hey buddy. What' up? Sarah here. Give me a second...")
+            st.markdown("Hey buddy. What' up? Sarah here. Give me a second...")
             time.sleep(5)
-            st.text('I am here, buddy. I am in front of the hacker house. Nobody is inside, police confirmed to me before so... there I go.')
+            st.markdown('I am here, buddy. I am in front of the hacker house. Nobody is inside, police confirmed to me before so... there I go.')
             time.sleep(2)
             st.text('...')
             time.sleep(2)           
-            st.text('The door is locked and it has a security keyboard to go in. No keys. What more do I see... The mailbox is open and... well, the doormat is too new and big for the door, I think. I send you a picture.')
+            st.markdown('The door is locked and it has a security keyboard to go in. No keys. What more do I see... The mailbox is open and... well, the doormat is too new and big for the door, I think. I send you a picture.')
             time.sleep(4)
             st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/doorhacker.png?raw=true',use_column_width=True)
             time.sleep(2)
             st.text('...')
             time.sleep(2)
-            st.text('What should do Sarah')           
-            time.sleep(7)
+            st.markdown('What should do Sarah?')           
+            time.sleep(10)
             switch_page('Chat1')
 
         elif a== '455-887-212':
             time.sleep(2)
-            st.text('Trying to conect')
+            st.markdown('Trying to conect')
             time.sleep(2)
             st.text('...')
             time.sleep(3)
-            st.text("Impossible to conect with yourself. Try again!")
+            st.markdown("Impossible to conect with yourself. Try again!")
 
         else:
             time.sleep(2)
-            st.text('Trying to conect')
+            st.markdown('Trying to conect')
             time.sleep(5)
             st.text('...')
             time.sleep(2)
-            st.text(random.choice(llamada)) 
+            st.markdown(random.choice(llamada)) 
             time.sleep(2)
-            st.text('The phone was hung up')       
+            st.markdown('The phone was hung up')       
 
     else:
-        st.text('The providen number is not correct. Please, write a correct one.')
+        st.markdown('The providen number is not correct. Please, write a correct one.')
 
 
 

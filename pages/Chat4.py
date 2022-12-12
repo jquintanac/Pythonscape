@@ -83,7 +83,7 @@ st.code(df)
 c=st.text_input("Are you trying to access to my computer? Let's see what you are able to!", '')
 
 if c != '':
-
+    c= c.lower()
     if c == 'peace':
         time.sleep(2)
         st.text('...')

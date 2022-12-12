@@ -71,6 +71,7 @@ st.code('lpaildrfnitfehdaluifsluedourlsiatffyuehlrdauiaseffnloriusrelhuraoldnueu
 c=off.text_input('Conexion with the SO, enter the code lowcase with spaces:', '')
 
 if c != '':
+    c= c.lower()
     if c == 'python is dareful':
         with alarm.container():
             rain(

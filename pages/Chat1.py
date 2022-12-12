@@ -58,22 +58,22 @@ st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/doorhacke
 
 b=st.text_input('Sarah should check the mailbox, doormat or door lock?', '')
 if b != '':
-
+    b= b.lower()
     if b == 'mailbox':
         time.sleep(2)
         st.text('...')
         time.sleep(2)
-        st.text('Just magazines, advertisement... No letters to check the hacker data. Sh*t!')
+        st.markdown('Just magazines, advertisement... No letters to check the hacker data. Sh*t!')
 
     elif b == 'doormat':
         time.sleep(2)
         st.text('...')
         time.sleep(2)
-        st.text('Nothing on the floor, under de doormat. Either over it. But...')
+        st.markdown('Nothing on the floor, under de doormat. Either over it. But...')
         time.sleep(2)
         st.text('...')
         time.sleep(2) 
-        st.text('Oh wait! There is something written in the doormat back. Maybe letters, numbers? What do you think?. Let me send you a picture of it') 
+        st.markdown('Oh wait! There is something written in the doormat back. Maybe letters, numbers? What do you think?. Let me send you a picture of it') 
         time.sleep(2)
         st.text('...')
         time.sleep(4)
@@ -83,11 +83,11 @@ if b != '':
         time.sleep(2)
         st.text('...')
         time.sleep(2)               
-        st.text('I send you a picture of the keyboard. Just the ten numbers, pad and asterisk. I need your help to search the code to pass inside. Any idea?')
+        st.markdown('I send you a picture of the keyboard. Just the ten numbers, pad and asterisk. I need your help to search the code to pass inside. Any idea?')
         time.sleep(4)
         st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/keyboard.jpg?raw=true',use_column_width=True) 
         time.sleep(2)
-        st.text('If you do not know the code, keep investigating. If you know it, just give a moment to Sarah to get prepared.')
+        st.markdown('If you do not know the code, keep investigating. If you know it, just give a moment to Sarah to get prepared.')
         time.sleep(10)
         switch_page('Chat2')
 
@@ -96,7 +96,7 @@ if b != '':
         time.sleep(2)
         st.text('...')
         time.sleep(2)               
-        st.text("I don't think that would be interesting to check")    
+        st.markdown("I don't think that would be interesting to check")    
 
 
 
