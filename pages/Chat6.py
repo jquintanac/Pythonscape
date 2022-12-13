@@ -9,8 +9,28 @@ from streamlit_extras.let_it_rain import rain
 import matplotlib.pyplot as plt
 import pandas as pd
 
-#Sidebar: Ocultar nombres sidebar
-st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
+# Cabecera
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.markdown('')
+st.markdown('')
+
+st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes City Police Service.", unsafe_allow_html=True)
+
+#Fondo
+
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+
+add_bg_from_url() 
+
+#Sidebar: Ocultar nombres sidebar y login
+
+no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
+st.markdown(no_sidebar_style, unsafe_allow_html=True)
 st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 with st.sidebar:
@@ -20,10 +40,9 @@ with st.sidebar:
 
 # Titulo
 
-st.markdown("<h1 style='text-align: center; color: blue;'>CODES CITY POLICE DEPARTMENT", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: black;'>Simple is better than complex", unsafe_allow_html=True)
+
 st.title('')
-st.markdown("<h4 style='text-align: center; color: black;'>Chat", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: white;'>Chat", unsafe_allow_html=True)
 
 
 # Botones para volver
@@ -50,7 +69,8 @@ st.success('Conexion stablished remotely.')
 
 # Contenido
 
-st.markdown("I've been searching through the hacker's computer and I found something really important: his boardpass! We have him, buddy! I am sending you the boardpass. It has some printing issues but I think we can work with this information. I'm going to ask for the house images when he left it. Give me a minute.  ")
+st.markdown("  ")
+st.markdown('<div style="text-align: justify;"> I have been searching through the hacker"s computer and I found something really important: his boardpass! We have him, buddy! I am sending you the boardpass. It has some printing issues but I think we can work with this information. I amm going to ask for the house images when he left it. Give me a minute.</div>', unsafe_allow_html=True)
 
 time.sleep(5)
 
@@ -58,7 +78,8 @@ st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/boardingp
 
 time.sleep(10)
 
-st.markdown("Police service has informed to me that we know more about Ethan. He left his home on 20th November 2022 to take a flight at Codes City airport. We caught him by street cameras. Look!  ")
+st.markdown("  ")
+st.markdown('<div style="text-align: justify;"> Police service has informed to me that we know more about Ethan. He left his home on 20th November 2022 to take a flight at Codes City airport. We caught him by street cameras. Look!</div>', unsafe_allow_html=True)
 
 time.sleep(2)
 
@@ -66,6 +87,7 @@ st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/ethanpics
 
 time.sleep(2)
 
+st.markdown("  ")
 st.markdown("We have no time to ask for a permission to track the airports information. Why don't you check your flight program in the desktop? Remember that your password is the name of our city twice with no space!")
 
 st.info('If you want to come back to this page, go to programs in your desktop and enter the correct pass in "Flight investigator". You will find a redirect button there. Be sure what the password is before leaving the page! ')

@@ -9,8 +9,28 @@ from streamlit_extras.let_it_rain import rain
 import matplotlib.pyplot as plt
 import pandas as pd
 
-#Sidebar: Ocultar nombres sidebar
-st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
+# Cabecera
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.markdown('')
+st.markdown('')
+
+st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes City Police Service.", unsafe_allow_html=True)
+
+#Fondo
+
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+
+add_bg_from_url() 
+
+#Sidebar: Ocultar nombres sidebar y login
+
+no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
+st.markdown(no_sidebar_style, unsafe_allow_html=True)
 st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 with st.sidebar:
@@ -20,10 +40,9 @@ with st.sidebar:
 
 # Titulo
 
-st.markdown("<h1 style='text-align: center; color: blue;'>CODES CITY POLICE DEPARTMENT", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: black;'>Simple is better than complex", unsafe_allow_html=True)
+
 st.title('')
-st.markdown("<h4 style='text-align: center; color: black;'>Chat", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: white;'>Chat", unsafe_allow_html=True)
 
 
 # Botones para volver
@@ -67,7 +86,7 @@ st.code(links)
 
 
 
-st.markdown("We have to investigate these links. There are no more links, so werid, don't you think? Oh, yes, I found a note with something strange written. I will use the mobile text reader and I will send you the text, give me a minute.")
+st.markdown("We have to investigate these links. There are no more links, so werid, don't you think? Oh, yes, I found a note with something strange written on it. I will use the mobile text reader and I will send you the text, give me a minute.")
 
 
 

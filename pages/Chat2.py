@@ -6,18 +6,37 @@ from PIL import Image
 from streamlit_extras.switch_page_button import switch_page
 from streamlit_extras.stoggle import stoggle
 
-#Sidebar: Ocultar nombres sidebar
-st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
+# Cabecera
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.title('')
+st.markdown('')
+st.markdown('')
+st.markdown('')
+
+st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes City Police Service.", unsafe_allow_html=True)
+
+#Fondo
+
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+
+add_bg_from_url() 
+
+#Sidebar: Ocultar nombres sidebar y login
+
+no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
+st.markdown(no_sidebar_style, unsafe_allow_html=True)
 st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 
 
 # Titulo
 
-st.markdown("<h1 style='text-align: center; color: blue;'>CODES CITY POLICE DEPARTMENT", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: black;'>Simple is better than complex", unsafe_allow_html=True)
+
 st.title('')
-st.markdown("<h4 style='text-align: center; color: black;'>Chat", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: white;'>Chat", unsafe_allow_html=True)
 with st.sidebar:
     st.title('Hints')
     stoggle('Do you need a hint?', "Do you have multiplied bot matrixes? If not, then do it!")
@@ -59,7 +78,7 @@ if c != '':
             time.sleep(2)
             st.text('...')
             time.sleep(2)               
-            st.text('It worked! I go inside')
+            st.markdown('It worked! I go inside')
             time.sleep(4)
             switch_page('Chat3')
 
@@ -67,8 +86,8 @@ if c != '':
             time.sleep(2)
             st.text('...')
             time.sleep(2)               
-            st.text('Mec mec, door is closed yet. Try again, buddy.')
+            st.markdown('Mec mec, door is closed yet. Try again, buddy.')
 
     else:
         time.sleep(2)
-        st.text("I can't enter that as a code, buddy! Be serious!")    
+        st.markdown("I can't enter that as a code, buddy! Be serious!")    
