@@ -63,7 +63,7 @@ with col1:
             
 with col3:
 
-    with open("../imgs/ids.jpg", "rb") as file:
+    with open("/app/pythonscape/imgs/ids.jpg", "rb") as file:
         btn = st.download_button(
                 label='Your buddy identification',
                 data=file,
