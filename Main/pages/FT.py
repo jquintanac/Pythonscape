@@ -81,8 +81,10 @@ if c != '':
         if d != '':
             d=d.lower()
             if d == 'codes':
-                time.sleep(2)
-                with open("../codesflightsandscales.rar", "rb") as file:
+                time.sleep(3)
+                st.markdown('Downloading data...')
+                time.sleep(5)
+                with open("/app/pythonscape/docs/codesflightsandscales.rar", "rb") as file:
                     btn = st.download_button(
                             label='Codes flights and scales',
                             data=file,
