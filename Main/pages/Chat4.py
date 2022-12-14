@@ -103,7 +103,7 @@ col1, col3, col2 = st.columns([1,1,1])
 
 with col1:
 
-    with open("../scatter.csv", "rb") as file:
+    with open("/app/pythonscape/docs/scatter.csv", "rb") as file:
             btn = st.download_button(
                     label='Scatter CSV',
                     data=file,
