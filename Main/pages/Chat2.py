@@ -1,4 +1,4 @@
-import streamlit as stCabecera
+import streamlit as st
 import regex as re
 import time
 import random
@@ -39,7 +39,7 @@ st.title('')
 st.markdown("<h4 style='text-align: center; color: white;'>Chat", unsafe_allow_html=True)
 with st.sidebar:
     st.title('Hints')
-    stoggle('Do you need a hint?', "Do you have multiplied bot matrixes? If not, then do it!")
+    stoggle('Do you need a hint?', "Do you have multiplied both matrixes? If not, then do it!")
     stoggle('Do you need an extra hint?', "What numbers are not matching with the pattern?")
 
 
@@ -78,7 +78,7 @@ if c != '':
             time.sleep(2)
             st.text('...')
             time.sleep(2)               
-            st.markdown('It worked! I go inside')
+            st.markdown('It has worked! I go inside.')
             time.sleep(4)
             switch_page('Chat3')
 

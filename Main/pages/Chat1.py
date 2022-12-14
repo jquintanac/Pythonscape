@@ -88,11 +88,11 @@ if b != '':
         time.sleep(2)
         st.text('...')
         time.sleep(2)
-        st.markdown('Nothing on the floor, under de doormat. Either over it. But...')
+        st.markdown('Nothing on the floor, under the doormat. Either over it. But...')
         time.sleep(2)
         st.text('...')
         time.sleep(2) 
-        st.markdown('Oh wait! There is something written in the doormat back. Maybe letters, numbers? What do you think?. Let me send you a picture of it') 
+        st.markdown('Oh wait! There is something written in the doormat back. Maybe letters, numbers? What do you think? Let me send you a picture of it') 
         time.sleep(2)
         st.text('...')
         time.sleep(4)
@@ -115,7 +115,7 @@ if b != '':
         time.sleep(2)
         st.text('...')
         time.sleep(2)               
-        st.markdown("I don't think that would be interesting to check")    
+        st.markdown("I don't think that would be interesting to check.")    
 
 
 
