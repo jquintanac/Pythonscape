@@ -77,11 +77,11 @@ col1, col3, col2 = st.columns([1,1,1])
 
 with col3:
 
-    with open("/app/pythonscape/docs/mails.csv", "rb") as file:
+    with open("/app/pythonscape/docs/mails.xlsx", "rb") as file:
             btn = st.download_button(
-                    label='Mails csv',
+                    label='Mails xlsx',
                     data=file,
-                    file_name="mails.csv",
+                    file_name="mails.xlsx",
                     )
 
 st.table(data=mails)
