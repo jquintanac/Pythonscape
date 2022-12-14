@@ -113,7 +113,7 @@ if c != '':
     if c == 'twitter':
         time.sleep(3)
         st.markdown("Oh, it's a possibility, of course. Elon Musk, hacking, cryptocurrency. Something is going to happen with Twitter. We have to stop it!")
-        time.sleep(5)               
+        time.sleep(9)               
         switch_page('Chat6')
     else:
         time.sleep(2)
