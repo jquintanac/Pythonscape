@@ -67,7 +67,7 @@ with col2:
 
 # Contenido
 
-mails= pd.read_csv('/app/pythonscape/docs/mails.csv')
+mails= pd.read_excel('/app/pythonscape/docs/mails.xlsx')
 
 
 
