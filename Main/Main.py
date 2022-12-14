@@ -54,7 +54,7 @@ col1, col2, col3= st.columns([1,1,1])
 
 with col1:
 
-    with open(r"C:\Users\Nonito\desktop\Data analysis\PROYECTOS\FPROY\docs\Jr_Buddy_notebook.ipynb", "rb") as file:
+    with open('/app/pythonscape/docs/Jr_Buddy_notebook.ipynb', "rb") as file:
         btn = st.download_button(
                 label='Your junior buddy notebook',
                 data=file,
@@ -72,7 +72,7 @@ with col3:
 
 with col2:
 
-    with open(r'C:\Users\Nonito\desktop\Data analysis\PROYECTOS\FPROY\docs\Sn_Buddy_notebook.ipynb', "rb") as file:
+    with open('/app/pythonscape/docs/Sn_Buddy_notebook.ipynb', "rb") as file:
         btn = st.download_button(
                 label='Your senior buddy notebook',
                 data=file,
