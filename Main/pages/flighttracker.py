@@ -40,10 +40,32 @@ st.title('')
 st.markdown("<h4 style='text-align: center; color: white;'>Flight tracker", unsafe_allow_html=True)
 
 
+# Botones para volver
+
+
+col1, col2, col3 = st.columns([1,1,1])
+
+with col1:
+    boton=st.button('Back to James desktop')
+    if boton:
+        switch_page('desktopJ')
+
+with col2:
+    boton=st.button('Programs')
+    if boton:
+        switch_page('Programs')
+
+with col3:
+    boton=st.button('Back to Scarlett desktop')
+    if boton:
+        switch_page('desktopS')
+
+
+
 # Contenido
 
 
-c=st.text_input('Enter your ID and password for the aplication to get access to.', '')
+c=st.text_input('Enter your password for the aplication to get access to.', '')
 
 
 if c != '':
