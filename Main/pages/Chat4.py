@@ -72,7 +72,7 @@ st.success('Conexion stablished remotely.')
 
 
 st.text('')
-st.markdown('I share the screen for you but I think the hacker knows we are here. Take a look... Maybe is it an access control? The page is blocked and I can not give you access to the desktop.')
+st.markdown('I share the screen for you but I think the hacker definitely knows we are here. Take a look... Maybe is this an access control? The page is blocked and I can not give you access to the desktop if we do not put the correct code.')
 
 
 #Scatter hi!
@@ -96,7 +96,7 @@ st.markdown("<h1 style='text-align: center; color: white;'>Do you dare? 😶", u
 acceso=st.empty()
 acceso.error('🔐 Restringed access 🔐  ⛔ Unauthorized permission  ⛔  ')
 
-df=pd.read_csv('../scatter.csv')
+df=pd.read_csv('/app/pythonscape/docs/scatter.csv')
 st.code(df)
 
 col1, col3, col2 = st.columns([1,1,1])
