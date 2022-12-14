@@ -15,7 +15,7 @@ from streamlit_extras.switch_page_button import switch_page
 
 #Fondo
 
-def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("/app/pythonscape/imgs/background2.jpg");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
 
 add_bg_from_url() 
 
@@ -41,7 +41,8 @@ st.markdown('')
 st.markdown('')
 st.markdown('')
 
-fondo = Image.open('/app/pythonscape/imgs/fronpage.jpg')        
+portada = Image.open('/app/pythonscape/imgs/fronpage.jpg')  
+st.image(portada, use_column_width=True)      
 
 st.markdown('<div style="text-align: justify;">Welcome to this adventure in which you have to catch a dangerous hacker using your data analysis knowledge! You have to work as a computer expert for the police and help your partner in crime. Are you ready for this challenge?</div>', unsafe_allow_html=True)
 
