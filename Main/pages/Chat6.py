@@ -23,7 +23,7 @@ st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes 
 
 #Fondo
 
-def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imgs/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
 
 add_bg_from_url() 
 
@@ -31,7 +31,7 @@ add_bg_from_url()
 
 no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
 st.markdown(no_sidebar_style, unsafe_allow_html=True)
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
+st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 with st.sidebar:
     st.title('Hints')
@@ -74,7 +74,7 @@ st.markdown('<div style="text-align: justify;"> I have been searching through th
 
 time.sleep(5)
 
-st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/boardingpass.jpg?raw=true')
+st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/boardingpass.jpg?raw=true')
 
 time.sleep(10)
 
@@ -83,7 +83,7 @@ st.markdown('<div style="text-align: justify;"> Police service has informed to m
 
 time.sleep(2)
 
-st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/ethanpics.jpg?raw=true')
+st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/ethanpics.jpg?raw=true')
 
 time.sleep(2)
 

@@ -21,7 +21,7 @@ st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes 
 
 #Fondo
 
-def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imgs/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
 
 add_bg_from_url() 
 
@@ -29,7 +29,7 @@ add_bg_from_url()
 
 no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
 st.markdown(no_sidebar_style, unsafe_allow_html=True)
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
+st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 
 
@@ -60,13 +60,13 @@ with col2:
 
 # Contenido
 data= [
-['Documentation case 1254B','2022-11-18','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/pdf.png?raw=true'],
-['Speed limit record 5542X','2022-11-15','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/video.png?raw=true'],
-['Thief caption 5433B','2022-11-15','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/jpeg.png?raw=true'],
-['Identification Marga D. Bell 1147P','2022-11-13','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/pdf.png?raw=true'],
-['Identification Matthew Prats 1147P','2022-11-13','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/pdf.png?raw=true'],
-['Market robbery 4497I','2022-11-05','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/video.png?raw=true'],
-['Suspects st Madisson 13 9400O','2022-11-02','https://github.com/jquintanac/Pythonscape/blob/main/imagenes/jpeg.png?raw=true'],
+['Documentation case 1254B','2022-11-18','https://github.com/jquintanac/Pythonscape/blob/main/imgs/pdf.png?raw=true'],
+['Speed limit record 5542X','2022-11-15','https://github.com/jquintanac/Pythonscape/blob/main/imgs/video.png?raw=true'],
+['Thief caption 5433B','2022-11-15','https://github.com/jquintanac/Pythonscape/blob/main/imgs/jpeg.png?raw=true'],
+['Identification Marga D. Bell 1147P','2022-11-13','https://github.com/jquintanac/Pythonscape/blob/main/imgs/pdf.png?raw=true'],
+['Identification Matthew Prats 1147P','2022-11-13','https://github.com/jquintanac/Pythonscape/blob/main/imgs/pdf.png?raw=true'],
+['Market robbery 4497I','2022-11-05','https://github.com/jquintanac/Pythonscape/blob/main/imgs/video.png?raw=true'],
+['Suspects st Madisson 13 9400O','2022-11-02','https://github.com/jquintanac/Pythonscape/blob/main/imgs/jpeg.png?raw=true'],
 ['...','...','...']]
 df = pd.DataFrame(data, columns=['File name', 'Date', 'Download'])
 

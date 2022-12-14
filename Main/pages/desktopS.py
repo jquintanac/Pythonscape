@@ -19,7 +19,7 @@ st.markdown("<h3 style='text-align: center; color: white;'>Welcome to the Codes 
 
 #Fondo
 
-def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imgs/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
 
 add_bg_from_url() 
 
@@ -27,10 +27,10 @@ add_bg_from_url()
 
 no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
 st.markdown(no_sidebar_style, unsafe_allow_html=True)
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
+st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 st.text('')
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/scarlett.png?raw=true")
+st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/scarlett.png?raw=true")
 st.sidebar.markdown('Your ID: 641228')
 st.sidebar.markdown('Your mail: sp@ccpd.com')
 st.sidebar.markdown('Your phone number: 455-887-212')
@@ -50,17 +50,17 @@ st.markdown("<h4 style='text-align: center; color: black;'>Desktop", unsafe_allo
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/schedule.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/schedule.png?raw=true', width=170)
     schedule=st.button('Schedule')
     if schedule:
         switch_page("Schedule")    
 with col2:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/mail.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/mail.png?raw=true', width=170)
     mail=st.button('Mail')
     if mail:
         switch_page("Mail") 
 with col3:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/files.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/files.png?raw=true', width=170)
     files=st.button('Files')
     if files:
         switch_page("Files") 
@@ -68,17 +68,17 @@ with col3:
 col4, col5, col6 = st.columns([1,1,1])
 
 with col4:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/pc.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/pc.png?raw=true', width=170)
     programs=st.button('Programs')
     if programs:
         switch_page("Programs")    
 with col5:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/chat.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/chat.png?raw=true', width=170)
     chat=st.button('Chat')
     if chat:
         switch_page("Chat") 
 with col6:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/agenda.png?raw=true', width=170)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/agenda.png?raw=true', width=170)
     agenda=st.button('Agenda')
     if agenda:
         switch_page("Agenda")

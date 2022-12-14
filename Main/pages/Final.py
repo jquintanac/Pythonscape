@@ -25,7 +25,7 @@ st.markdown('')
 
 #Fondo
 
-def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
+def add_bg_from_url():    st.markdown(         f"""         <style>         .stApp {{             background-image: url("https://github.com/jquintanac/Pythonscape/blob/main/imgs/background2.jpg?raw=true");             background-attachment: fixed;             background-size: cover         }}         </style>         """,         unsafe_allow_html=True     )
 
 add_bg_from_url() 
 
@@ -33,7 +33,7 @@ add_bg_from_url()
 
 no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
 st.markdown(no_sidebar_style, unsafe_allow_html=True)
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
+st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/logo.png?raw=true", use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 
 
@@ -73,20 +73,20 @@ st.markdown("<h3 style='text-align: center; color: white;'>Apparently, he was pl
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/arrested1.png?raw=true',use_column_width=True)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/arrested1.png?raw=true',use_column_width=True)
 with col2:
-    st.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)   
+    st.image("https://github.com/jquintanac/Pythonscape/blob/main/imgs/logo.png?raw=true", use_column_width=True)   
 with col3:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/arrested5.png?raw=true',use_column_width=True)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/arrested5.png?raw=true',use_column_width=True)
 
 col4, col5, col6 = st.columns([1,1,1])
 
 with col4:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/arrested2.png?raw=true',use_column_width=True)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/arrested2.png?raw=true',use_column_width=True)
 with col5:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/arrested3.png?raw=true',use_column_width=True)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/arrested3.png?raw=true',use_column_width=True)
 with col6:
-    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/arrested4.png?raw=true',use_column_width=True)
+    st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/arrested4.png?raw=true',use_column_width=True)
 
 
 st.markdown('')
