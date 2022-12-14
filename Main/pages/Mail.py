@@ -67,11 +67,11 @@ with col2:
 
 # Contenido
 
-#mails= pd.read_excel('/app/pythonscape/docs/mails.xlsx')
+mails= pd.read_excel('/app/pythonscape/docs/mails.xlsx')
 
 
 
-#st.code(mails, language='python')
+st.code(mails, language='python')
 
 col1, col3, col2 = st.columns([1,1,1])
 
@@ -86,7 +86,7 @@ with col3:
 
 st.code(file, language='python')
 
-st.table(data=file)
+st.table(data=mails)
 
 
 
