@@ -73,7 +73,7 @@ with alarm.container():
         emoji="🚨",
         font_size=54,
         falling_speed=5,
-        animation_length=100)
+        animation_length='infinite')
 
 st.markdown('')
 st.markdown('Buddy, we have a problem here. An alarm has been switched on and probably the hacker now know we are here. I am going to try to stablish a conexion with you and the hacker operative system. This way you can help me as if you were here. Give me a minute...')

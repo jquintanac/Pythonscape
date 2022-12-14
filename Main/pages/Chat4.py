@@ -99,6 +99,17 @@ acceso.error('🔐 Restringed access 🔐  ⛔ Unauthorized permission  ⛔  ')
 df=pd.read_csv('../scatter.csv')
 st.code(df)
 
+col1, col3, col2 = st.columns([1,1,1])
+
+with col1:
+
+    with open("../scatter.csv", "rb") as file:
+            btn = st.download_button(
+                    label='Scatter CSV',
+                    data=file,
+                    file_name="scatter.csv",
+                    )
+
 c=st.text_input("Are you trying to access to my computer? Let's see what you are able to!", '')
 
 if c != '':
