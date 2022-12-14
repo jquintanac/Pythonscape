@@ -70,7 +70,7 @@ st.success('Conexion stablished remotely.')
 # Contenido
 
 st.markdown("  ")
-st.markdown('<div style="text-align: justify;"> I have been searching through the hacker"s computer and I found something really important: his boardpass! We have him, buddy! I am sending you the boardpass. It has some printing issues but I think we can work with this information. I amm going to ask for the house images when he left it. Give me a minute.</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: justify;"> I have been searching through the hacker"s computer and I found something really important: his boarding pass! We have him, buddy! I am sending to you the boarding pass. It has some printing issues but I think we can work with this information. I am going to ask for the house images when he left it. Give me a minute.</div>', unsafe_allow_html=True)
 
 time.sleep(5)
 
@@ -83,7 +83,7 @@ st.markdown('<div style="text-align: justify;"> Police service has informed to m
 
 time.sleep(2)
 
-st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/ethanpics.jpg?raw=true')
+st.image('https://github.com/jquintanac/Pythonscape/blob/main/imgs/camera.jpg?raw=true')
 
 time.sleep(2)
 
