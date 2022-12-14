@@ -23,7 +23,8 @@ add_bg_from_url()
 #Sidebar: Ocultar nombres sidebar
 no_sidebar_style = """    <style>        div[data-testid="stSidebarNav"] {display: none;}    </style>"""
 st.markdown(no_sidebar_style, unsafe_allow_html=True)
-st.sidebar.image("https://github.com/jquintanac/Pythonscape/blob/main/imagenes/logo.png?raw=true", use_column_width=True)
+placa= Image.open('/app/pythonscape/imgs/logo.png') 
+st.sidebar.image(placa, use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 
 
@@ -40,7 +41,7 @@ st.markdown('')
 st.markdown('')
 st.markdown('')
 
-st.image('https://github.com/jquintanac/Pythonscape/blob/main/imagenes/fronpage.jpg?raw=true')
+fondo = Image.open('/app/pythonscape/imgs/fronpage.jpg')        
 
 st.markdown('<div style="text-align: justify;">Welcome to this adventure in which you have to catch a dangerous hacker using your data analysis knowledge! You have to work as a computer expert for the police and help your partner in crime. Are you ready for this challenge?</div>', unsafe_allow_html=True)
 
