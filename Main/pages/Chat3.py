@@ -76,7 +76,7 @@ with alarm.container():
         animation_length='infinite')
 
 st.markdown('')
-st.markdown('Buddy, we have a problem here. An alarm has been switched on and probably the hacker now know we are here. I am going to try to stablish a conexion with you and the hacker operative system. This way you can help me as if you were here. Give me a minute...')
+st.markdown('Buddy, we have a problem here. An alarm has been switched on and probably the hacker now knows we are here. I am going to try to stablish a conection with you and the hacker operative system. This way you can help me as if you were here. Give me a minute...')
 time.sleep(3)
 conex=st.empty()
 conex.error('The conexion has not been stablished.')
@@ -101,7 +101,7 @@ if c != '':
         conex.success('The conexion has been stablished.')
         st.warning('Alarm sound off. Security mode activated as a caution tool.')
         st.markdown('Nice, buddy. We are conected to the hacker computer. Let me see where we can start.')
-        time.sleep(10)
+        time.sleep(12)
         switch_page('Chat4')
     else:
         st.text('Wrong code, I think. Try again.')
