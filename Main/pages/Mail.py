@@ -84,7 +84,7 @@ with col3:
                     file_name="mails.xlsx",
                     )
 
-st.code(file, language='python')
+
 
 st.table(data=mails)
 
