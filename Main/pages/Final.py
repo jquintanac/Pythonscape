@@ -96,7 +96,7 @@ image_file= st.file_uploader("Upload your notebook", type=["ipynb"], key="upload
 if image_file is not None:
     file_details = {"FileName":image_file.name, "FileType":image_file.type}
     st.write(file_details)
-    with open(os.path.join("notebooks",image_file.name),"wb") as f:
+    with open(os.path.join("https://drive.google.com/drive/folders/1_Ien05-EZIvcbPFefVD0V66LYZuAEtXf?usp=sharing",image_file.name),"wb") as f:
         f.write(image_file.getbuffer())
     st.success("File saved")
 
