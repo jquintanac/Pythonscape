@@ -1,0 +1,12 @@
+regex
+time
+random
+PIL
+streamlit_extras.switch_page_button
+pandas
+streamlit_extras.stoggle 
+matplotlib.pyplot
+os.path
+pathlib
+streamlit_extras.let_it_rain
+streamlit_extras.image_in_tables
