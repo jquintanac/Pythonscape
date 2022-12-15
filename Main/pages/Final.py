@@ -90,9 +90,10 @@ with col6:
 
 
 st.markdown('')
-st.markdown("<h4 style='text-align: center; color: white;'> You can upload your jupyter notebook to get into the ranking. Thank you for participating and I hope you like it! ", unsafe_allow_html=True)
-
-st.text('Send an email with your notebook to this direction: codescitypolicedepartment@gmail.com and we will check your work and the ranking!')
+st.markdown("<h4 style='text-align: center; color: white;'> You can send us your jupyter notebook to get into the ranking. Thank you for participating and I hope you like it! ", unsafe_allow_html=True)
+st.markdown('')
+st.markdown('')
+st.text('Send your notebook to this email: codescitypolicedepartment@gmail.')
 
 #image_file= st.file_uploader("Upload your notebook", type=["ipynb"], key="uploaded_file")
 #if image_file is not None:
