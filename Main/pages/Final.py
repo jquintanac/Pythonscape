@@ -103,3 +103,5 @@ st.text('Send your notebook to this email: codescitypolicedepartment@gmail.')
         #f.write(image_file.getbuffer())
     #st.success("File saved")
 
+st.balloons()
+
