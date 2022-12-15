@@ -92,11 +92,13 @@ with col6:
 st.markdown('')
 st.markdown("<h4 style='text-align: center; color: white;'> You can upload your jupyter notebook to get into the ranking. Thank you for participating and I hope you like it! ", unsafe_allow_html=True)
 
-image_file= st.file_uploader("Upload your notebook", type=["ipynb"], key="uploaded_file")
-if image_file is not None:
-    file_details = {"FileName":image_file.name, "FileType":image_file.type}
-    st.write(file_details)
-    with open("https://drive.google.com/drive/folders/1_Ien05-EZIvcbPFefVD0V66LYZuAEtXf?usp=sharing","wb") as f:
-        f.write(image_file.getbuffer())
-    st.success("File saved")
+st.text('Send an email with your notebook to this direction: codescitypolicedepartment@gmail.com and we will check your work and the ranking!')
+
+#image_file= st.file_uploader("Upload your notebook", type=["ipynb"], key="uploaded_file")
+#if image_file is not None:
+    #file_details = {"FileName":image_file.name, "FileType":image_file.type}
+    #st.write(file_details)
+    #with open("https://drive.google.com/drive/folders/1_Ien05-EZIvcbPFefVD0V66LYZuAEtXf?usp=sharing","wb") as f:
+        #f.write(image_file.getbuffer())
+    #st.success("File saved")
 
