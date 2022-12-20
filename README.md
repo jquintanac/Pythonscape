@@ -53,10 +53,10 @@ The code is written in docs.py to show in Streamlit<sup>**9**</sup> the final re
 
 ## Acknowledgement
 
-I would like to thank my teachers ([Yonatan Rodríguez]('https://github.com/YonatanRA'), [Adrián C. Ciges]('https://github.com/AdrianCiges') and [Oriana Ampuero]('https://github.com/OrianAmpuero/')) for their help and cheers when I though I was lost and my work too. 
+I would like to thank my teachers ([Yonatan Rodríguez](https://github.com/YonatanRA), [Adrián C. Ciges](https://github.com/AdrianCiges) and [Oriana Ampuero](https://github.com/OrianAmpuero)) for their help and cheers when I though I was lost and my work too. 
 Thanks to my classmates for all the support and good words! Indeed, my project was one of the most voted by them so I am so gratefull!
 By last, thanks to you, viewer, for getting until here and taking a look to my job! 
 
 If you want to make some recommendations to me for improving my project, I will be pleased to read them! 
 
-You can find me on [Linkedin]('https://www.linkedin.com/in/jonatanquintana/') and [via email]('jqcheca@gmail.com').
+You can find me on [Linkedin](https://www.linkedin.com/in/jonatanquintana) and [via email](jqcheca@gmail.com).
