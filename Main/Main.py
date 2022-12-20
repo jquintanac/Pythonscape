@@ -43,15 +43,13 @@ st.markdown('')
 st.video('https://youtu.be/aZwbSuNrPPM')
 
 
-
-
-
 # Contenido
 
 st.markdown('')
 st.markdown('')
 st.markdown('')
 st.markdown('')
+st.markdown("<h2 style='text-align: center; color: white;'>Welcome to the Codes City Police Academy!", unsafe_allow_html=True)
 st.markdown('')
 st.markdown('')
 st.markdown('')
@@ -59,12 +57,14 @@ st.markdown('')
 
 portada = Image.open('/app/pythonscape/imgs/fronpage.jpg')  
 st.image(portada, use_column_width=True)      
-
-st.markdown('<div style="text-align: justify;">Welcome to this adventure in which you have to catch a dangerous hacker using your data analysis knowledge! You have to work as a computer expert for the police and help your partner in crime. Are you ready for this challenge?</div>', unsafe_allow_html=True)
-
 st.markdown('')
-
-st.markdown('<div style="text-align: justify;">Right here you will find all you need to start playing: a jupyter notebook that you have to download to write all you need to solve the case and your identification for police department. In case you need some help to solve the case because you do not know too much about Data analysis, just download the Junior jupyter notebook. If you feel prepared to work without guideline because you can have enough knowledge about Data analysis, download de Senior jupyter notebook. Do not forget to count the time where you had finished since you started to get possitions in the ranking! You will have to give us back the jupyter completed when finished! If you are ready, just click the button Start the game!</div>', unsafe_allow_html=True)
+gil = Image.open('/app/pythonscape/imgs/gil.png') 
+st.image(gil)
+st.markdown('<div style="text-align: justify;">Welcome buddy! My name is Gil Push and I am the Chief of Police at Codes City Police Academy. So I will be your instructor until you pass your first case</div>', unsafe_allow_html=True)
+st.markdown('')
+st.markdown("<div style='text-align: justify;'>You are a lucky buddy because we have a new case and we need your help! It has taken us too much time but finally we made it: we found out the Hacker's den! I need you to work as the computer expert you are and help our team that is arriving to hacker's den. We will need all your knowledge in Data analysis and your wit to solve the case. Are you ready, buddy?</div>", unsafe_allow_html=True)
+st.markdown('')
+st.markdown('<div style="text-align: justify;">Right here you will find all you need to start solving the case: a jupyter notebook that you have to download to write all you need to solve the case and a identification for the police service. We are sorry but we have not received your ID yet!. In case you need some help to solve the case because you do not know too much about Data analysis, just download the Junior jupyter notebook and follow the instructions. This experience would be nicer to you if a senior buddy join to you. If you feel prepared to work without guideline because you have enough knowledge about Data analysis, download the Senior jupyter notebook. Do not forget to count the time when you had finished since you started to get possitions in the ranking! You will have to give us back the completed jupyter notebook when finished! If you are ready, just click the button Start the game!</div>', unsafe_allow_html=True)
 
 st.markdown('')
 
