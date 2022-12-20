@@ -59,4 +59,4 @@ By last, thanks to you, viewer, for getting until here and taking a look to my j
 
 If you want to make some recommendations to me for improving my project, I will be pleased to read them! 
 
-You can find me on [Linkedin](https://www.linkedin.com/in/jonatanquintana) and [via email](jqcheca@gmail.com).
+You can find me on [Linkedin](https://www.linkedin.com/in/jonatanquintana) and [via email](mailto:jqcheca@gmail.com).
