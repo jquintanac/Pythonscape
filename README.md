@@ -29,7 +29,7 @@ Puzzles 🧩 and games 🕹 are made to be solved with Python<sup>**1**</sup> �
 
 I made a trailer 🎞 with Sony Vegas Pro 16.0<sup>**4**</sup> to set the escape room scene (avaible in the main page).
 
-Almost all images 📷 are made by AI (Artificial Intelligence)<sup>**5,6**</sup>´🤖 and/or edited by me with Adobe Photoshop Cs5<sup>**7**</sup>. Some of them are obtained by searching on the Internet<sup>**8**</sup> 🏄‍♂️ (no copyrights intended).
+Almost all images 📷 are made by AI (Artificial Intelligence)<sup>**5,6**</sup>🤖 and/or edited by me with Adobe Photoshop Cs5<sup>**7**</sup>. Some of them are obtained by searching on the Internet<sup>**8**</sup> 🏄‍♂️ (no copyrights intended).
 
 The code is written in docs.py to show in Streamlit<sup>**9**</sup> the final result. These pages are in this repo so take a look if you want to 👀!
 
