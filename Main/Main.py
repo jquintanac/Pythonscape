@@ -27,6 +27,11 @@ placa= Image.open('/app/pythonscape/imgs/logo.png')
 st.sidebar.image(placa, use_column_width=True)
 st.sidebar.markdown('Welcome to the Codes City Police Service')
 
+videoh = open('https://youtu.be/aZwbSuNrPPM', 'rb')
+st.video(videoh.read())
+
+
+
 
 
 
