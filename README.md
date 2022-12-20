@@ -47,13 +47,13 @@ The code is written in docs.py to show in Streamlit<sup>**9**</sup> the final re
 
 ## To-do list
 
-* I will like to improve the scape with some new games about visualization, machine learning and ETL process (I have the idea on my mind but no time enough to put them on work).
+* I will like to improve the escape with some new games about visualization, machine learning and ETL process (I have the idea on my mind but no time enough to put them on working).
 * I will like to replace the "sending-notebook-by-email" by a uploading system with cloud computing.
-* I will improve some pages (more visual, more functional).
+* I will like to improve some pages (more visual, more functional).
 
 ## Acknowledgement
 
-I would like to thank my teachers ([Yonatan Rodríguez](https://github.com/YonatanRA), [Adrián C. Ciges](https://github.com/AdrianCiges) and [Oriana Ampuero](https://github.com/OrianAmpuero)) for their help and cheers when I though I was lost and my work too. 
+I would like to thank my teachers ([Yonatan Rodríguez](https://github.com/YonatanRA), [Adrián C. Ciges](https://github.com/AdrianCiges) and [Oriana Ampuero](https://github.com/OrianAmpuero)) for their help and cheers when I though I and my work were lost.
 Thanks to my classmates for all the support and good words! Indeed, my project was one of the most voted by them so I am so gratefull!
 By last, thanks to you, viewer, for getting until here and taking a look to my job! 
 
