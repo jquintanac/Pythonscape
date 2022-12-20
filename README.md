@@ -25,7 +25,7 @@ Basically, all code is made in Streamlit and I deployed it to make it functional
 
 ## Content 🧾
 
-Puzzles 🧩 and games 🕹 are made to be solved with Python<sup>**1**</sup> 🐍, web scrapping (I used Selenium<sup>**2**</sup>) 🕸 and with a SQL platform(I used MySQL)<sup>**3**</sup> 🎫 but it's free to solve in a different way.
+Puzzles 🧩 and games 🕹 are made to be solved with Python<sup>**1**</sup> 🐍, web scrapping (I used Selenium<sup>**2**</sup>) 🕸 and with a SQL platform(I used MySQL<sup>**3**</sup>) 🎫 but it's free to solve in a different way.
 
 I made a trailer 🎞 with Sony Vegas Pro 16.0<sup>**4**</sup> to set the escape room scene (avaible in the main page).
 
