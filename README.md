@@ -47,9 +47,9 @@ The code is written in docs.py to show in Streamlit<sup>**9**</sup> the final re
 
 ## To-do list
 
-* I will like to improve the escape with some new games about visualization, machine learning and ETL process (I have the idea on my mind but no time enough to put them on working).
-* I will like to replace the "sending-notebook-by-email" by a uploading system with cloud computing.
-* I will like to improve some pages (more visual, more functional).
+* I would like to improve the escape with some new games about visualization, machine learning and ETL process (I have the idea on my mind but no time enough to put them on working).
+* I would like to replace the "sending-notebook-by-email" by a uploading system with cloud computing.
+* I would like to improve some pages (more visual, more functional).
 
 ## Acknowledgement
 
