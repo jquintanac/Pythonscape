@@ -11,7 +11,7 @@ It was a risky decision but I wanted to make something different and funny with 
 
 Basically, all code is made in Streamlit and I deployed it to make it functional for everybody. So take a look in the link below:
 
-[Go to solve the case clicking here!](https://jquintanac-pythonscape-mainmain-zy2fuv.streamlit.app/)
+[Go to solve the case clicking here!](https://pythonscape.streamlit.app/)
 
 ## Storytelling 📕
 
